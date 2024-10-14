@@ -147,7 +147,7 @@ Spring Boot applications come with an embedded server, such as Tomcat, allowing 
 ## Getting Started
 1. **Clone this repository:**
 ```
-git clone https://github.com/your-username/springboot-project.git
+git clone https://github.com/pranay-bhatkar/spring-boot-learning.git
 
 ```
 
@@ -162,6 +162,7 @@ cd springboot-project
 mvn spring-boot:run
 
 ```
+
 ---
 
 

@@ -118,7 +118,7 @@ mvn spring-boot:run
 ### Importance:
 - Simplifies the development workflow by enabling developers to quickly test changes without a complex deployment process.
 
-##Injecting Custom Properties
+## Injecting Custom Properties
 Custom properties can be injected into the Spring Boot application via the ```application.properties``` or ```application.yml``` files, allowing developers to configure settings like database URLs, server ports, and more.
 
 ### Importance:

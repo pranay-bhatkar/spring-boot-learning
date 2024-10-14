@@ -8,7 +8,7 @@ I am learning Spring Boot through the Udemy course "Spring Boot 3: Learn Spring 
 
 <div align="center">
 
-## Day 1
+# Day 1
 
 </div>
 

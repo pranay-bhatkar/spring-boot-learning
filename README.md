@@ -2,6 +2,17 @@
 
 Welcome to my Spring Boot learning project! This repository documents my journey as I explore the powerful Spring Boot framework for building Java applications. Below, I outline key concepts I’ve learned today, their importance, and the advantages of using Spring Boot.
 
+## Course Details 💻
+I am learning Spring Boot through the Udemy course "Spring Boot 3: Learn Spring 6, Spring Core, Spring REST, Spring MVC, Spring Security, Thymeleaf, JPA, Hibernate, MySQL" by Chad Darby, a popular Java Spring instructor. This course provides in-depth knowledge and hands-on experience with the latest Spring technologies. [Check out the course here!](https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=ST8MT101424)
+
+
+<div align="center">
+
+## Day 1
+
+</div>
+
+
 ## Table of Contents
 1. [Introduction to Spring Boot](#introduction-to-spring-boot)
 2. [Importance and Advantages of Spring Boot](#importance-and-advantages-of-spring-boot)
@@ -16,7 +27,6 @@ Welcome to my Spring Boot learning project! This repository documents my journey
 11. [Injecting Custom Properties](#injecting-custom-properties)
 12. [Configuring Spring Boot Server](#configuring-spring-boot-server)
 13. [Getting Started](#getting-started)
-14. [Course Details](#course-details)
 
 ## Introduction to Spring Boot
 Spring Boot is an extension of the Spring framework that simplifies the process of setting up and developing new applications. It provides a comprehensive suite of tools and libraries, enabling developers to create stand-alone, production-ready applications with minimal configuration.
@@ -152,8 +162,8 @@ cd springboot-project
 mvn spring-boot:run
 
 ```
+---
 
-## Course Details
-I am learning Spring Boot through the Udemy course "Spring Boot 3: Learn Spring 6, Spring Core, Spring REST, Spring MVC, Spring Security, Thymeleaf, JPA, Hibernate, MySQL" by Chad Darby, a popular Java Spring instructor. This course provides in-depth knowledge and hands-on experience with the latest Spring technologies. [Check out the course here!](https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=ST8MT101424)
+
 
 

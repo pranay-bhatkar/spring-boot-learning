@@ -16,7 +16,7 @@ Welcome to my Spring Boot learning project! This repository documents my journey
 11. [Injecting Custom Properties](#injecting-custom-properties)
 12. [Configuring Spring Boot Server](#configuring-spring-boot-server)
 13. [Getting Started](#getting-started)
-14. [Course Details](##course-details)
+14. [Course Details](#course-details)
 
 ## Introduction to Spring Boot
 Spring Boot is an extension of the Spring framework that simplifies the process of setting up and developing new applications. It provides a comprehensive suite of tools and libraries, enabling developers to create stand-alone, production-ready applications with minimal configuration.

@@ -5,13 +5,13 @@ Welcome to my Spring Boot learning project! This repository documents my journey
 ## Reference Course Details 💻
 I am learning Spring Boot through the Udemy course "Spring Boot 3: Learn Spring 6, Spring Core, Spring REST, Spring MVC, Spring Security, Thymeleaf, JPA, Hibernate, MySQL" by Chad Darby, a popular Java Spring instructor. This course provides in-depth knowledge and hands-on experience with the latest Spring technologies. [Check out the course here!](https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=ST8MT101424)
 
----
+
 <div align="center">
 
 # Day 1 : Spring Boot Qick Start
 
 </div>
----
+
 
 
 ## Table of Contents

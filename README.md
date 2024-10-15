@@ -5,12 +5,13 @@ Welcome to my Spring Boot learning project! This repository documents my journey
 ## Reference Course Details 💻
 I am learning Spring Boot through the Udemy course "Spring Boot 3: Learn Spring 6, Spring Core, Spring REST, Spring MVC, Spring Security, Thymeleaf, JPA, Hibernate, MySQL" by Chad Darby, a popular Java Spring instructor. This course provides in-depth knowledge and hands-on experience with the latest Spring technologies. [Check out the course here!](https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=ST8MT101424)
 
-
+---
 <div align="center">
 
 # Day 1 : Spring Boot Qick Start
 
 </div>
+---
 
 
 ## Table of Contents
@@ -171,19 +172,18 @@ mvn spring-boot:run
 </div>
 
 ## Table of Contents
-1. [Introduction to Spring Boot](#introduction-to-spring-boot)
-2. [What is Inversion of Control (IoC)?](#what-is-inversion-of-control-ioc)
-3. [Dependency Injection (DI)](#dependency-injection-di)
-4. [Constructor Injection](#constructor-injection)
-5. [IDE Warning](#ide-warning)
-6. [Component Scanning](#component-scanning)
-7. [Setter Injection](#setter-injection)
-8. [Qualifiers](#qualifiers)
-9. [Primary Beans](#primary-beans)
-10. [Lazy Initialization](#lazy-initialization)
-11. [Bean Scopes](#bean-scopes)
-12. [Bean Lifecycle Methods](#bean-lifecycle-methods)
-13. [Java Config Beans](#java-config-beans)
+1. [What is Inversion of Control (IoC)?](#what-is-inversion-of-control-ioc)
+2. [Dependency Injection (DI)](#dependency-injection-di)
+3. [Constructor Injection](#constructor-injection)
+4. [IDE Warning](#ide-warning)
+5. [Component Scanning](#component-scanning)
+6. [Setter Injection](#setter-injection)
+7. [Qualifiers](#qualifiers)
+8. [Primary Beans](#primary-beans)
+9. [Lazy Initialization](#lazy-initialization)
+10. [Bean Scopes](#bean-scopes)
+11. [Bean Lifecycle Methods](#bean-lifecycle-methods)
+12. [Java Config Beans](#java-config-beans)
 
 ## What is Inversion of Control (IoC)?
 Inversion of Control is a design principle in which the control of object creation and lifecycle management is transferred from the application code to a framework. In Spring, this is primarily achieved through the Spring IoC container, which manages the instantiation, configuration, and assembly of beans.

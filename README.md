@@ -185,21 +185,21 @@ mvn spring-boot:run
 12. [Bean Lifecycle Methods](#bean-lifecycle-methods)
 13. [Java Config Beans](#java-config-beans)
 
-## 1. What is Inversion of Control (IoC)?
+## What is Inversion of Control (IoC)?
 Inversion of Control is a design principle in which the control of object creation and lifecycle management is transferred from the application code to a framework. In Spring, this is primarily achieved through the Spring IoC container, which manages the instantiation, configuration, and assembly of beans.
 
 ### Importance:
 - Promotes loose coupling between components.
 - Enhances testability by allowing dependencies to be managed externally.
 
-## 2. Dependency Injection (DI)
+## Dependency Injection (DI)
 Dependency Injection is a specific implementation of Inversion of Control where an object receives its dependencies from an external source rather than creating them itself. This can be done through constructor injection, setter injection, or method injection.
 
 ### Importance:
 - Improves code modularity and reusability.
 - Makes it easier to manage dependencies, especially in large applications.
 
-## 3. Constructor Injection
+## Constructor Injection
 Constructor injection involves passing dependencies through a class constructor. When the Spring container creates an instance of a class, it provides the required dependencies as constructor parameters.
 
 ### Example:
@@ -219,21 +219,21 @@ public class UserService {
 - Ensures that the required dependencies are available when the object is created.
 - Makes the class immutable (if the fields are `final`).
 
-## 4. IDE Warning
+## IDE Warning
 Sometimes, IDEs (like IntelliJ IDEA or Eclipse) may show warnings about uninitialized components or beans that are not injected correctly. These warnings help developers identify issues related to dependency management and configuration.
 
 ### Importance:
 - Promotes best practices by alerting developers to potential issues.
 - Encourages the use of annotations like `@Autowired`, `@Component`, etc.
 
-## 5. Component Scanning
+## Component Scanning
 Component scanning is a mechanism by which the Spring IoC container automatically discovers and registers beans in the application context. It scans specific packages for classes annotated with Spring stereotypes such as `@Component`, `@Service`, `@Repository`, or `@Controller`.
 
 ### Importance:
 - Reduces the need for manual bean registration.
 - Facilitates a cleaner configuration and organization of classes.
 
-## 6. Setter Injection
+## Setter Injection
 Setter injection allows dependencies to be provided through setter methods. After the bean is instantiated, Spring calls the setter methods to inject dependencies.
 
 ### Example:
@@ -253,7 +253,7 @@ public class UserService {
 - Allows for optional dependencies.
 - Provides flexibility in modifying dependencies after object creation.
 
-## 7. Qualifiers
+## Qualifiers
 In cases where multiple beans of the same type are available, the `@Qualifier` annotation is used to specify which bean to inject. This helps avoid ambiguity.
 
 ### Example:
@@ -267,7 +267,7 @@ private UserRepository userRepository;
 - Resolves conflicts when multiple beans exist.
 - Enhances the specificity of dependency injection.
 
-## 8. Primary Beans
+## Primary Beans
 The `@Primary` annotation indicates that a specific bean should be given preference when multiple candidates are available for autowiring. If a primary bean is present, it will be used when a matching type is requested.
 
 ### Example:
@@ -282,7 +282,7 @@ public UserRepository primaryUserRepository() {
 ### Importance:
 - Simplifies dependency resolution in scenarios with multiple beans of the same type.
 
-## 9. Lazy Initialization
+## Lazy Initialization
 Lazy initialization defers the creation of a bean until it is needed, rather than at application startup. This can improve application startup time and resource utilization.
 
 ### Example:
@@ -298,7 +298,7 @@ public UserService userService() {
 - Reduces the memory footprint for beans that may not be needed immediately.
 - Can enhance performance in large applications.
 
-## 10. Bean Scopes
+## Bean Scopes
 Bean scopes define the lifecycle and visibility of beans in the Spring container. Common scopes include:
 
 - **Singleton**: A single instance per Spring IoC container (default scope).
@@ -310,7 +310,7 @@ Bean scopes define the lifecycle and visibility of beans in the Spring container
 ### Importance:
 - Allows developers to control the lifecycle of beans based on their use case.
 
-## 11. Bean Lifecycle Methods
+## Bean Lifecycle Methods
 Spring beans have a lifecycle with several phases, including initialization and destruction. Developers can define custom initialization and destruction methods using annotations like `@PostConstruct` and `@PreDestroy`, or through XML configuration.
 
 ### Example:
@@ -330,7 +330,7 @@ public void cleanup() {
 - Provides hooks for performing tasks during the lifecycle of a bean.
 - Ensures proper resource management.
 
-## 12. Java Config Beans
+## Java Config Beans
 Java Config is a method of defining Spring beans using Java classes and annotations instead of XML. This approach is more type-safe and provides better IDE support.
 
 ### Example:
